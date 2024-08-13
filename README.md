@@ -8,9 +8,9 @@ In order to maintain the project’s system architecture as simple as possible a
 4. Testing and calculating the probability of disease being correctly inferred 
 5. Calling the above functions to be integrated together and showcasing the result with respective API call detailing the disease description.
 
-(I) Converting audio to text 
+<b> (I) Converting audio to text </b>
 
-	Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. 
+Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. 
 
 The speech recognizer analyzes the audio input using machine learning techniques to find and distinguish certain words. To do this, a database of recognized speech sounds is matched against each manageable segment of the audio stream. Based on this comparison, the recognizer can determine which word is more likely to have been spoken. 
 
@@ -28,7 +28,7 @@ Our models will be integrated into our software platform once they have been tra
 
 Our program has successfully completed its initial testing, demonstrating that it is functional for English speakers, and is now prepared for further testing. Nonetheless, the issue of other languages is still there. 
 
-(II) Extracting Symptoms using NLP 
+<b> (II) Extracting Symptoms using NLP </b>
 
 The second module is responsible for extracting the symptoms from the converted text. Since it is sometimes important for doctors and other healthcare professionals to distinguish symptoms from patients’ descriptions of their ailments, this capability is very useful in the medical area. 
 
@@ -44,7 +44,7 @@ In POS tagging, specific word types, such as nouns, verbs, and adjectives, are i
 
 Overall, the ability of our program to extract symptoms from text data using Spacy and POS tagging has considerably increased the effectiveness and precision of symptom extraction in the healthcare industry. 
 
-(III) Machine Learning Model 
+<b> (III) Machine Learning Model </b>
 
 To create software that is effective in detecting illnesses, it is essential to train a machine learning model with relevant data. The Columbia illness symptom dataset contains a list of signs that can be used to identify this ailment. With the aid of this dataset, we can create a machine learning model that can accurately diagnose a patient’s illness based on their symptoms. 
 
@@ -62,7 +62,7 @@ The random forest classifier model, which may be incorporated into the software 
 
 The model we created using the dataset had a training accuracy of 0.98, while the average score from three cross-validations was about 0.95. The resultant test accuracy was 0.93. 
 
-(IV) Converting Extracted Symptoms to binary and sending it to Machine learning model 
+<b> (IV) Converting Extracted Symptoms to binary and sending it to Machine learning model </b>
 
 In the first step, symptoms are extracted from the patient’s word using an NLP algorithm. To determine whether the extracted symptoms are present, they must be contrasted with the dataset of symptoms. The list of symptoms should include each symptom’s associated codes or labels. 
 
@@ -72,7 +72,7 @@ Depending on the existence or lack of symptoms, the system may then train a mach
 
 The dataset’s quality is an important factor to take into account when applying machine learning to medical diagnosis. The dataset should be updated by medical professionals, and it should be sizable enough to include a range of ailments and symptoms in order to guarantee its accuracy. To reflect the most recent medical knowledge and research, the software should also be regularly updated. 
 
-(V) Showcasing output results 
+<b> (V) Showcasing output results </b>
 
 The results may be presented on a website [Figure 6] for both patients and medical professionals to readily access and analyze once the machine learning model has properly predicted the ailment based on the presence or absence of symptoms. 
 
