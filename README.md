@@ -1,4 +1,4 @@
-# updated-audio-to-text-diagnosis-project
+# Audio-to-text-diagnosis-project
 
 In order to maintain the project’s system architecture as simple as possible and make it easier for others to understand, it has been carefully examined and planned. The system is made up of five main parts. These modules are: 
 
