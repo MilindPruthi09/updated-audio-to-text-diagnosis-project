@@ -10,7 +10,7 @@ In order to maintain the project’s system architecture as simple as possible a
 
 (I) Converting audio to text 
 
-Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. 
+	Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. 
 
 The speech recognizer analyzes the audio input using machine learning techniques to find and distinguish certain words. To do this, a database of recognized speech sounds is matched against each manageable segment of the audio stream. Based on this comparison, the recognizer can determine which word is more likely to have been spoken. 
 
