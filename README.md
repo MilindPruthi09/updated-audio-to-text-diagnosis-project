@@ -2,33 +2,33 @@
 
 In order to maintain the project’s system architecture as simple as possible and make it easier for others to understand, it has been carefully examined and planned. The system is made up of five main parts. These modules are: 
 
-1. Audio Capture and converting it into text by using Transfer Learning 
-2. Filter words from the converted text using Natural Language Processing 
-3. Training the Machine Learning Model on the Columbia Dataset 
-4. Testing and calculating the probability of disease being correctly inferred 
-5. Calling the above functions to be integrated together and showcasing the result with respective API call detailing the disease description.
+<h2>1. Audio Capture and converting it into text by using Transfer Learning </h2>
+<h2>2. Filter words from the converted text using Natural Language Processing</h2> 
+<h2>3. Training the Machine Learning Model on the Columbia Dataset </h2>
+<h2>4. Testing and calculating the probability of disease being correctly inferred </h2>
+<h2>5. Calling the above functions to be integrated together and showcasing the result with respective API call detailing the disease description.</h2>
 
-<b> (I) Converting audio to text </b>
+<h3>(I) Converting audio to text </b></h3>
 
-Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. 
+<li>Our application converts audio to text using a voice recognizer. The popularity of digital assistants like Siri, Alexa, and Google Assistant has recently helped this technology, despite the fact that it has been available for a long. Our program incorporates cutting-edge voice recognition technology that enables accurate transcription of spoken words into text. </li>
+<br>
+<li>The speech recognizer analyzes the audio input using machine learning techniques to find and distinguish certain words. To do this, a database of recognized speech sounds is matched against each manageable segment of the audio stream. Based on this comparison, the recognizer can determine which word is more likely to have been spoken. </li>
+<br>
+<li>Our program only supports English at this time. But, by integrating NVIDIA NeMo into our system, we intend to increase the number of languages that our program can distinguish between. </li>
+<br>
+<li>NVIDIA NeMo is a powerful open-source toolbox for developing and enhancing conversational AI models. The accuracy and dependability of voice recognition systems are improved by the use of contemporary machine learning techniques. </li>
+<br>
+<li>NeMo allows us to handle more languages and dialects, including some that are normally difficult to understand, like Mandarin and Arabic. </li>
+<br>
+<li>Several steps will be required to integrate NVIDIA NeMo into our software. We must first train our voice recognition models using the NeMo toolkit. To train our algorithms to recognize the unique features of that language, extensive audio data gathering in the target language will be required. </li>
+<br>
+<li>For use in the real world, our models will then need to be optimized. This will necessitate modifying our algorithms to account for accents, background noise, and speech unpredictability. Additionally, we will need to develop trustworthy algorithms to address common speech recognition issues including homophones, slurred speech, and mispronunciations. </li>
+<br>
+<li>Our models will be integrated into our software platform once they have been trained and enhanced, enabling users to transcribe audio files in a larger range of languages. Compared to our current system, which is restricted to a relatively small number of languages, this will be a big advance. </li>
+<br>
+<li>Our program has successfully completed its initial testing, demonstrating that it is functional for English speakers, and is now prepared for further testing. Nonetheless, the issue of other languages is still there. </li>
 
-The speech recognizer analyzes the audio input using machine learning techniques to find and distinguish certain words. To do this, a database of recognized speech sounds is matched against each manageable segment of the audio stream. Based on this comparison, the recognizer can determine which word is more likely to have been spoken. 
-
-Our program only supports English at this time. But, by integrating NVIDIA NeMo into our system, we intend to increase the number of languages that our program can distinguish between. 
-
-NVIDIA NeMo is a powerful open-source toolbox for developing and enhancing conversational AI models. The accuracy and dependability of voice recognition systems are improved by the use of contemporary machine learning techniques. 
-
-NeMo allows us to handle more languages and dialects, including some that are normally difficult to understand, like Mandarin and Arabic. 
-
-Several steps will be required to integrate NVIDIA NeMo into our software. We must first train our voice recognition models using the NeMo toolkit. To train our algorithms to recognize the unique features of that language, extensive audio data gathering in the target language will be required. 
-
-For use in the real world, our models will then need to be optimized. This will necessitate modifying our algorithms to account for accents, background noise, and speech unpredictability. Additionally, we will need to develop trustworthy algorithms to address common speech recognition issues including homophones, slurred speech, and mispronunciations. 
-
-Our models will be integrated into our software platform once they have been trained and enhanced, enabling users to transcribe audio files in a larger range of languages. Compared to our current system, which is restricted to a relatively small number of languages, this will be a big advance. 
-
-Our program has successfully completed its initial testing, demonstrating that it is functional for English speakers, and is now prepared for further testing. Nonetheless, the issue of other languages is still there. 
-
-<b> (II) Extracting Symptoms using NLP </b>
+<h3><b> (II) Extracting Symptoms using NLP </b></h3>
 
 The second module is responsible for extracting the symptoms from the converted text. Since it is sometimes important for doctors and other healthcare professionals to distinguish symptoms from patients’ descriptions of their ailments, this capability is very useful in the medical area. 
 
